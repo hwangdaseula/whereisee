@@ -164,7 +164,15 @@ li {
 	background-color: powderblue;
 }
 
-
+@media screen and (max-width: 900px) {
+	body {
+		background-color: plum;
+	}
+	.b1 {
+		color: white;
+		background-color: black;
+	}
+}
 
 
 

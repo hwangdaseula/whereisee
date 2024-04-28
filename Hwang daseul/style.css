@@ -1,0 +1,180 @@
+img {
+	width: 300px;
+	height: 400px;
+}
+
+article {
+	display: flex;
+	align-items: baseline;
+}
+
+
+section {
+	border: 2px dashed black;
+	background-color: powderblue;
+	flex-wrap: wrap;
+	line-height: 28px;
+	letter-spacing: 1px;
+	word-break: keep-all;
+	height: 950px;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+header {
+	background-color: pink;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	background-color: skyblue;
+}
+
+.a1 {
+	position: absolute;
+	background: black;
+	top: 200px;
+	left: 100px;
+	width: 200px;
+	height: 300px;
+	border-radius: 100px;
+	color: pink;
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.a2 {
+	position: absolute;
+	background: black;
+	top: 200px;
+	left: 700px;
+	width: 200px;
+	height: 300px;
+	border-radius: 100px;
+	color: pink;
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.a3 {
+	position: absolute;
+	background: red;
+	top: 500px;
+	left: 400px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.a4 {
+	position: absolute;
+	background: red;
+	top: 800px;
+	left: 100px;
+	width: 800px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.a5 {
+	position: absolute;
+	background: black;
+	top: 900px;
+	left: 100px;
+	width: 800px;
+	height: 10px;
+	border-radius: 100px;
+}
+
+.a6 {
+	position: absolute;
+	background: white;
+	top: 210px;
+	left: 170px;
+	width: 100px;
+	height: 200px;
+	border-radius: 500px;
+}
+
+.a7 {
+	position: absolute;
+	background: white;
+	top: 210px;
+	left: 770px;
+	width: 100px;
+	height: 200px;
+	border-radius: 500px;
+}
+
+.a8 {
+	position: absolute;
+	background: white;
+	top: 530px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.a10 {
+	position: absolute;
+	background: green;
+	top: 600px;
+	left: 850px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+.a11 {
+	position: absolute;
+	background: green;
+	top: 600px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+li {
+	list-style: none;
+}
+
+.b1 {
+	flex-wrap: wrap;
+	line-height: 30px;
+	letter-spacing: 1px;
+	word-break: keep-all;
+	height: 200px;
+	width: 700px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.b2 {
+	background-color: skyblue;
+	text-align: center;
+}
+
+.b3 {
+	background-color: powderblue;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		background-color: plum;
+	}
+	.b1 {
+		color: white;
+		background-color: black;
+	}
+}
+
+
+
+
+
